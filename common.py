@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from scipy.interpolate import interp1d
-from scipy.integrate import cumtrapz, quad
+from scipy.integrate import cumulative_trapezoid, quad
 from scipy.optimize import nnls, minimize, least_squares
 
 import time

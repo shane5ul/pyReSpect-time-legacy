@@ -196,7 +196,7 @@ def GridDensity(x, px, N):
 	xi   = np.linspace(min(x),max(x),npts)   # reinterpolate on equi-spaced axis
 	fint = interp1d(x,px,'cubic')	         # smoothen using cubic splines
 	pint = fint(xi)        					 # interpolation
-	ci   = cumtrapz(pint, xi, initial=0)                
+	ci   = cumulative_trapezoid(pint, xi, initial=0)                
 	pint = pint/ci[npts-1]
 	ci   = ci/ci[npts-1]                     # normalize ci
 
