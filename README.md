@@ -1,5 +1,16 @@
 # pyReSpect-time
 
+⚠️ NOTICE: This version of the project is now deprecated. The project has been completely refactored. You can find the new, active version at the original site: https://github.com/shane5ul/pyReSpect-time
+
+The refactored code modernizes the old code base. 
+
+* This makes installation easier and libraries available systemwide. 
+* The user-interface is simplified (configuration and data can be supplied programmatically or via files)
+* The library functions are callable from other programs.
+* It separates computation from I/O and plotting.
+
+
+
 Extract continuous and discrete relaxation spectra from stress relaxation modulus G(t). The papers which describe the method and test cases are:
 
 + Shanbhag, S., "pyReSpect: A Computer Program to Extract Discrete and Continuous Spectra from Stress Relaxation Experiments", Macromolecular Theory and Simulations, **2019**, 1900005 [doi: 10.1002/mats.201900005].
@@ -51,7 +62,7 @@ The interactive mode offers a "GUI" for exploring parameter settings. To launch 
 
 ### Pre-requisites
 
-The numbers in parenthesis show the version this has been tested on.
+The numbers in parenthesis show the version this has been tested on. I updated the programs to work on newer versions of `numpy`.
 
 python3 (3.12)
 numpy (2.4)
@@ -60,6 +71,10 @@ scipy (1.17)
 ## History
 
 The code is based on the Matlab program [ReSpect](https://www.mathworks.com/matlabcentral/fileexchange/40458-respect), which extract the continuous and discrete relaxation spectra from frequency data, G*(w). Work was supported by National Science Foundation DMR grants number 0953002 and 1727870.
+
+### Archiving and Refactoring May 2026
++ archiving the old codebase
++ see notice at top of this readme.
 
 ### Major Upgrade: March-April 2019
 + added ability to infer plateau modulus G0; modified all python routines and reorganized inp.dat
