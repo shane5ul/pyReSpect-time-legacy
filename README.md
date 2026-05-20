@@ -51,16 +51,11 @@ The interactive mode offers a "GUI" for exploring parameter settings. To launch 
 
 ### Pre-requisites
 
-The numbers in parenthesis show the version this has been tested on. 
+The numbers in parenthesis show the version this has been tested on.
 
-python3 (3.8)
-numpy (1.23)
-scipy (1.3)
-
-For interactive mode:
-
-jupyter (4.3)
-ipywidgets (6.0.0)
+python3 (3.12)
+numpy (2.4)
+scipy (1.17)
 
 ## History
 

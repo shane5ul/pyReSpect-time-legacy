@@ -14,7 +14,7 @@
 # Filename for "experimental" data. PlainTXT
 # It should contain G(t) in 2 columns [t Gt]
 #
-GexpFile 	: 'tests/test4.dat'
+GexpFile 	: 'tests/test6.dat'
 
 #
 # Plateau Modulus: is there a residual plateau in the data?

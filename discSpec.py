@@ -164,7 +164,7 @@ def GetWeights(H, t, s, wb):
 	for j in np.arange(ns):
 		wt[j] = np.sum(wij[:,j])
 
-	wt  = wt/np.trapz(wt, np.log(s))
+	wt  = wt/np.trapezoid(wt, np.log(s))
 	wt  = (1. - wb) * wt + (wb * np.mean(wt)) * np.ones(len(wt))
 
 	return wt
